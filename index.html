@@ -1,0 +1,129 @@
+<!doctype html>
+<html>
+	<head>
+
+		<link type="text/css" rel="stylesheet" href="stylesheet.css">
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+		<script src="https://github.com/kswedberg/jquery-smooth-scroll/blob/master/jquery.smooth-scroll.min.js"></script>
+
+	</head>
+
+	<body>
+	
+		<ul id="main">
+
+			<div class="NAVBAR">
+
+				<h2><a href="#home">ASA <span>JENKINS</span></a></h2>
+
+						<ul class="nav">
+
+							<li><a href="#home">Home</a></li>
+
+							<li><a href="#about">About</a></li>
+
+							<li><a href="#projects">Projects</a></li>
+
+							<li><a href="#contact">Contact</a></li>
+
+						</ul>
+			</div>
+
+
+			<div class="HOME">
+
+				<li id="home">
+
+					<p>Hello, my name is Asa. I am a 3rd year Computer Science student at Florida State University. I have proficient skills with C++, and currently learning skills HTML5/CSS, Javascript, and J Querey on <span><a href="https://www.codecademy.com/Asa4Jenkins">CodeAcademy</a></span> and <span><a href="https://www.freecodecamp.com/4thjenkins17">FreeCodeCamp</a></span>.</p>
+					
+				</li>
+
+			</div>
+
+			<div class="ABOUT" dir="rtl">
+				
+				<li id="about">
+				
+					<h2>Education</h2>
+
+					<ul>
+
+						<li>Tallahassee Community College, Tallahassee FL, Assosciates of Arts in General Transfer, Graduated Summer 2015</li>
+
+						<li>Florida State University, Tallahassee FL, Bachelors of Arts in Computer Science, Graduation 2017/2018</li>
+
+					</ul>
+
+					<div class="SECTION">
+						
+						<h2>Relevant Coursework</h2>
+
+							<table>
+								
+								<tr>
+
+									<td>Programming I</td>
+									<td>Discrete Math</td>
+									<td>Introduction to Unix</td>
+
+								</tr>
+
+								<tr>
+									<td>Object Oriented Programming</td>
+									<td>Data Structures and Algorithms</td>
+									<td>Computer Organization I</td>
+								</tr>
+
+								<tr>
+									<td>Computer Organization II</td>
+									<td>Software Engineering I</td>
+									<td>Theory and Structure of Databases</td>
+								</tr>
+
+							</table>
+
+					</div>
+
+				</li>
+
+			</div>
+
+			<div class="PROJECTS">
+
+				<li id="projects">
+					
+					<h2>Projects</h2>
+
+				</li>
+
+			</div>
+
+			<div class="CONTACT">
+
+				<li id="contact">
+
+					<h2>Contact</h2>
+					
+				</li>
+
+			</div>
+
+		</ul>
+
+	</body>	
+
+	<script>
+
+		$('.smooth').on('click', function() {
+		    $.smoothScroll({
+		        scrollElement: $('body'),
+		        scrollTarget: '#' + this.id
+		    });
+		    
+		    return false;
+		});
+	</script>
+
+	
+</html>
