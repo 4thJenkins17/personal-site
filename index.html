@@ -1,65 +1,69 @@
 <!doctype html>
 <html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
 	<head>
 
-		<link type="text/css" rel="stylesheet" href="CSS/main.css">
+		<link type="text/css" rel="stylesheet" href="stylesheet.css">
+
+
+		<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+
 		<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-		<script src="https://github.com/kswedberg/jquery-smooth-scroll/blob/master/jquery.smooth-scroll.min.js"></script>
+
+		<style>
+			.w3-Open-Sans {
+				font-family: 'Open Sans', sans-serif;
+			}
+		</style>
 
 	</head>
 
 	<body>
 	
-		<ul id="main">
+		<ul id="fullpage">
 
-			<div class="NAVBAR">
+			<div class="w3-container w3-top w3-navbar w3-black">
 
-				<h2><a href="#home">ASA <span>JENKINS</span></a></h2>
+						<ul class="w3-navbar w3-right">
 
-						<ul class="nav">
+							<li class="w3-display-middle"><h3 class="w3-Open-Sans">Asa Jenkins</h3></li>
+			
+							<li class="w3-border-left w3-hover-indigo"><a class="w3-hover-indigo w3-Open-Sans"href="#home">Home</a></li>
 
-							<li><a href="#home">Home</a></li>
+							<li class="w3-border-left w3-hover-indigo"><a class="w3-hover-indigo w3-Open-Sans" href="#about">About</a></li>
 
-							<li><a href="#about">About</a></li>
+							<li class="w3-border-left w3-hover-indigo"><a class="w3-hover-indigo w3-Open-Sans" href="#projects">Projects</a></li>
 
-							<li><a href="#projects">Projects</a></li>
-
-							<li><a href="#contact">Contact</a></li>
+							<li class="w3-border-left"><a class="w3-hover-indigo w3-Open-Sans" href="#contact">Contact</a></li>
 
 						</ul>
 			</div>
 
+			<div class="w3-container w3-dark-grey w3-padding-128 w3-center"  id="home">
 
-			<div class="HOME">
-
-				<li id="home">
-
-					<p>Hello, my name is Asa. I am a 3rd year Computer Science student at Florida State University. I have proficient skills with C++, and currently learning skills HTML5/CSS, Javascript, and J Querey on <span><a href="https://www.codecademy.com/Asa4Jenkins">CodeAcademy</a></span> and <span><a href="https://www.freecodecamp.com/4thjenkins17">FreeCodeCamp</a></span>.</p>
+					<p class="w3-xxlarge w3-padding-128 w3-Open-Sans">Hello, my name is Asa<span class="w3-hide-large w3-hide-medium">,
+					</span><span class="w3-hide-small">. I am </span> a 3rd year Computer Science student <span class="w3-hide-small">at Florida State University</span>. <span class="w3-hide-large w3-hide-medium">I am</span><span class="w3-hide-small">I have</span> proficient <span class="w3-hide-small">skills</span> with C++, and currently learning HTML5/CSS, Javascript, and J Querey <span class="w3-hide-small">on <span><a style="text-decoration: none" class="w3-hover-text-indigo" href="https://www.codecademy.com/Asa4Jenkins">CodeAcademy</a></span> and <span><a style="text-decoration: none" class="w3-hover-text-indigo" href="https://www.freecodecamp.com/4thjenkins17">FreeCodeCamp</a></span></span>.</p>
 					
-				</li>
-
 			</div>
 
-			<div class="ABOUT" dir="rtl">
+			<div class="w3-container w3-light-grey" id="about">
 				
-				<li id="about">
-				
-					<h2>Education</h2>
+					<h2 class="w3-jumbo w3-padding-large w3-border-bottom w3-Open-Sans">Education</h2>
 
-					<ul>
+					<ul class="w3-ul w3-border w3-xlarge w3-white w3-round-xlarge w3-margin-top">
 
-						<li>Tallahassee Community College, Tallahassee FL, Assosciates of Arts in General Transfer, Graduated Summer 2015</li>
+						<li class="w3-padding-large w3-Open-Sans">Tallahassee Community College, Tallahassee FL, Assosciates of Arts in General Transfer, Summer 2015</li>
 
-						<li>Florida State University, Tallahassee FL, Bachelors of Arts in Computer Science, Graduation 2017/2018</li>
+						<li class="w3-padding-large w3-Open-Sans">Florida State University, Tallahassee FL, Bachelors of Arts in Computer Science, Fall/Spring 2017/2018</li>
 
 					</ul>
 
-					<div class="SECTION">
+					<div class="w3-container w3-margin-top w3-hide-small">
 						
-						<h2>Relevant Coursework</h2>
+						<h2 class="w3-jumbo w3-border-bottom w3-Open-Sans">Relevant Coursework</h2>
 
-							<table>
+							<table class="w3-table-all w3-xlarge w3-center w3-round-xlarge">
 								
 								<tr>
 
@@ -84,46 +88,22 @@
 							</table>
 
 					</div>
+			</div>
+			<div class="w3-container w3-white PROJECTS" id="projects">
 
-				</li>
+					
+					<h2 class="w3-jumbo w3-padding-large w3-text-indigo w3-border-bottom w3-border-indigo w3-Open-Sans">Projects</h2>
 
 			</div>
+			<div class="w3-container w3-indigo" id="contact">
 
-			<div class="PROJECTS">
 
-				<li id="projects">
+					<h2 class="w3-jumbo w3-padding-large w3-border-bottom w3-border-white w3-Open-Sans">Contact</h2>
 					
-					<h2>Projects</h2>
-
-				</li>
-
-			</div>
-
-			<div class="CONTACT">
-
-				<li id="contact">
-
-					<h2>Contact</h2>
-					
-				</li>
-
 			</div>
 
 		</ul>
 
 	</body>	
-
-	<script>
-
-		$('.smooth').on('click', function() {
-		    $.smoothScroll({
-		        scrollElement: $('body'),
-		        scrollTarget: '#' + this.id
-		    });
-		    
-		    return false;
-		});
-	</script>
-
 	
 </html>
