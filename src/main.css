@@ -1,0 +1,193 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+html,body {
+	height: 100%;
+	background-color: black;
+	background-image: url('https://i.imgur.com/USm7KqH.jpg');
+	background-size: 100%;
+}
+
+#particles-js{
+    position:absolute;
+    top:0;
+    width:100%;
+    height:100%;
+}
+
+.nav {
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-align:center;
+    background-color: none;
+}
+
+.nav li {
+    display:inline;
+    clear: both;
+
+}
+
+.nav li h1 {
+	position: relative;
+	left: -0.25em;
+	font-family: 'Audiowide', cursive;
+	letter-spacing: 10px;
+	max-width: 510px;
+	font-size: 52px;
+	color: white;
+    display:inline-block;
+    padding: 16px;
+    border-bottom: 5px solid red;
+}
+
+.nav li h1 p {
+	position: relative;
+	left: 0em;
+	letter-spacing: 10px;
+	max-width: 1000px;
+	font-size: 0.50em;
+}
+
+.nav li a {
+	font-family: 'Audiowide', cursive;
+	position: relative;
+	right: 15px;
+}
+
+.nav a {
+	max-width: 15%;
+	color: white;
+	font-size: 20px;
+	letter-spacing: 2px;
+	text-decoration: none;
+    display:inline-block;
+    padding: 16px;
+}
+
+.nav a:hover, a:active {
+	color: white;
+	border-bottom: 4px solid red;
+	margin-bottom: -4px;
+}
+
+
+.page {
+	position: relative;
+	top: 15px;
+	margin: 0 auto;
+	padding: 32px;
+	height: 58%;
+	max-width: 700px;
+	background-color: #ccc;
+	border: 1px solid #ccc;
+	border-radius: 25px;
+}
+
+.left-block {
+	position: absolute;
+	bottom: 15px;
+	left: 15px;
+	border-radius: 25px;
+	float: left;
+	max-width: 730px;
+	height: 95%;
+	background-color: white;
+}
+
+.left-block h1 {
+	font-family: 'Marvel', sans-serif;
+	font-size: 2.05em;
+	position: relative;
+	padding: 0.75em;
+	top: 2%;
+	left: -0.5%;
+	margin: 0 15px;
+	text-align: left;
+	border-bottom: 1px solid #ccc;
+}
+
+.inner-block {
+	border-radius: 25px;
+	position: relative;
+	bottom: -3em;
+	left: 5em;
+	background-color: #ccc;
+	height: 10em;
+	width: 35em;
+}
+
+.button-bar {
+	list-style:none;
+    margin:0;
+    padding:0;
+    text-align:center;
+    background-color: none;
+}
+
+.button-bar li {
+	display: inline;
+	clear: both;
+}
+
+.button-bar h3 {
+	font-family: 'Marvel', sans-serif;
+	position: relative;
+	padding: 0.15em;
+	top: 0.15em;
+	font-size: 36px;
+	border-bottom: 5px solid white;
+}
+
+.button-bar a {
+	position: relative;
+	top: 1.75em;
+	padding: 0.75em;
+}
+
+.button-bar a:hover {
+	color: white;
+}
+
+#about {
+	position: relative;
+	padding: .25em;
+	top: .75em;
+	font-family: 'Marvel', sans-serif;
+	font-size: 2.05em;
+	border-bottom: 1px solid #ccc;
+}
+
+.project-link {
+	position: relative;
+	padding: .35em;
+	top: .75em;
+	font-family: 'Marvel', sans-serif;
+	color: black;
+	text-decoration: none;
+	font-size: 2.46em;
+}
+
+.project-link:hover {
+	color: grey;
+	border-bottom: 5px solid red;
+}
+
+.left-block p {
+	font-family: 'Marvel', sans-serif;
+	font-size: 2.15em;
+	padding-left: 35%;
+	padding-top: 10%;
+	border-bottom: 1px solid #ccc;
+}
+
+#blog {
+	font-family: 'Marvel', sans-serif;
+	font-size: 2.15em;
+	padding-left: 35%;
+	padding-top: 25%;
+	border-bottom: 1px solid #ccc;
+}
