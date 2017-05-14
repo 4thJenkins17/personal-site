@@ -1,0 +1,104 @@
+@import url("bootstrap.css");
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+html,body {
+	height: 100%;
+	background-image: url('https://i.imgur.com/USm7KqH.jpg');
+	background-size: cover;
+}
+
+.whole {
+	position: relative;
+	top: 7%;
+}
+
+#particles-js{
+    position:absolute;
+    top:0;
+    width:100%;
+    height:100%;
+}
+
+.nav {
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-align:center;
+    background-color: none;
+}
+
+.nav li {
+    display:inline;
+    clear: both;
+
+}
+
+.nav li h1 {
+	position: relative;
+	left: -0.25em;
+	font-family: 'Audiowide', cursive;
+	letter-spacing: 10px;
+	max-width: 510px;
+	font-size: 52px;
+	color: white;
+    display:inline-block;
+    padding: 16px;
+    border-bottom: 5px solid red;
+}
+
+.nav li h1 p {
+	position: relative;
+	left: 0em;
+	letter-spacing: 10px;
+	max-width: 1000px;
+	font-size: 0.35em;
+}
+
+.nav li a {
+	font-family: 'Audiowide', cursive;
+	position: relative;
+	right: 15px;
+}
+
+.nav a {
+	max-width: 15%;
+	color: white;
+	font-size: 20px;
+	letter-spacing: 2px;
+	text-decoration: none;
+    display:inline-block;
+    padding: 16px;
+}
+
+.nav a:hover, a:active {
+	color: white;
+	border-bottom: 4px solid red;
+	margin-bottom: -4px;
+}
+
+
+.page {
+	position: relative;
+	top: 15px;
+	margin: 0 auto;
+	padding: 10px;
+	height: 50%;
+	max-width: 600px;
+	background-color: #ccc;
+	border: 1px solid #ccc;
+	border-radius: 25px;
+}
+
+.page h1 {
+	font-size: 1.75em;
+}
+
+.page div a 
+{
+	text-decoration: none;
+	font-size: 1em;
+}
